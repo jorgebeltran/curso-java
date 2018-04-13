@@ -12,7 +12,7 @@ package dia2;
 public class Student extends Persona{
           private String codsis;
 
-    public Student(String codsis, String name, String lastname, String dateOfBirthday, String dni) {
+    public Student( String name, String lastname, String dateOfBirthday, String dni,String codsis) {
         super(name, lastname, dateOfBirthday, dni);
         this.codsis = codsis;
     }
