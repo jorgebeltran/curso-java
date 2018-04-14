@@ -9,6 +9,17 @@ package dia4;
  *
  * @author jorgebeltranaguilar
  */
-public class Box {
+public class Box <T> {
+    private T firstSubBox;
+
+    public Box(T firstSubBox) {
+        this.firstSubBox = firstSubBox;
+    }
+
+    @Override
+    public String toString() {
+        return "Box{" + "firstSubBox=" + firstSubBox + '}';
+    }
+    
   
 }

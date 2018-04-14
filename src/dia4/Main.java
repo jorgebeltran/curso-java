@@ -27,6 +27,12 @@ public class Main {
         
         university1.showListPersona();
         ///clases genericas 
+        
+        System.out.println("clases genericas");
+        Box<Teacher> box1= new Box<>(teacher1);
+        
+        System.out.println(box1);
+        
     }
 }
 
