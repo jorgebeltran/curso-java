@@ -10,7 +10,7 @@ package dia5v2;
  * @author jorgebeltranaguilar
  */
 public interface ComputableShape {
- 
-    public double calculateArea();
+  // son funciones no esta implementado 
+    public double calculateArea(); 
     public double calculatePerimeter();
 }

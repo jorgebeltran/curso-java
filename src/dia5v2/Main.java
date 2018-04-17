@@ -20,7 +20,7 @@ public class Main {
         
         Sqaure sqaure1=new Sqaure(5.0);
         System.out.println("area del cuadro es: "+ sqaure1.calculateArea());
-        System.out.println("area del cuadro es: "+ sqaure1.calculatePerimeter());
+        System.out.println("area del perimetro es: "+ sqaure1.calculatePerimeter());
        System.out.println("Default method del cudrado :"+ sqaure1.getSomething());
         System.out.println("--------------------");        
        System.out.println("Area del circulo :"+ circle1.calculateArea());

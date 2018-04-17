@@ -26,7 +26,7 @@ public class Sqaure implements ComputableShape ,DoSomething{
         return 4*side;
     }
     @Override
-public String getSomething() {
+    public String getSomething() {
         return "Overrading defulta method of DoSomething interface";
     }
 
